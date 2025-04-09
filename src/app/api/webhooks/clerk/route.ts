@@ -1,5 +1,7 @@
 import { db } from "@/server/db";
 
+console.log('here');
+
 export const POST = async (req: Request) => {
     const { data } = await req.json();
     console.log("[CLERK] - WEBHOOK /POST:", data)

@@ -4,7 +4,7 @@ import Nylas from "nylas";
 
 const config = {
   clientId: process.env.NYLAS_CLIENT_ID!,
-  callbackUri: `http://localhost:3000/api/auth/callback/nylas`,
+  callbackUri: `https://chat-client-azure-six.vercel.app/api/auth/callback/nylas`,
   apiKey: process.env.NYLAS_API_KEY!,
   apiUri: process.env.NYLAS_API_URI ?? "https://api.us.nylas.com",
 };
